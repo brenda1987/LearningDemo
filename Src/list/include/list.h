@@ -20,11 +20,11 @@ typedef struct node
 
 PNODE CreatList(void);  //创建列表
 
-bool IsEmpty(PNODE pHead); //判断列表是否为空
+bool IsEmpty(const PNODE pHead); //判断列表是否为空
 
-void TranverseList(PNODE pHead);  //遍历列表
+void TranverseList(const PNODE pHead);  //遍历列表
 
-int LengthList(PNODE pHead);  //求列表长度
+int LengthList(const PNODE pHead);  //求列表长度
 
 bool InsertList(PNODE pHead,int pos,Item value);  //在列表的pos位置插入一个元素value
 

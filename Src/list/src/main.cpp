@@ -6,5 +6,19 @@
 
 int main(void)
 {
-    PNODE CreatList();
+    Item pval;
+
+    PNODE list = CreatList();
+
+    TranverseList(list);
+
+    LengthList(list);
+
+    InsertList( list,3,5);
+
+    TranverseList(list);
+
+    DeleteList( list,4,&pval);
+
+    TranverseList(list);
 }
