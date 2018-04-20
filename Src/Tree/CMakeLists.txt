@@ -7,5 +7,5 @@ include_directories(include)
 
 set(EXECUTABLE_OUTPUT_PATH bin)
 
-set(SOURCE_FILES src/main.cpp src/BTree.cpp)
+set(SOURCE_FILES src/main.cpp src/BTree.cpp ../Sort/src/sort.cpp ../Sort/include/sort.h ../Sort/src/main.cpp)
 add_executable(BTreeDemo ${SOURCE_FILES})
