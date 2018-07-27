@@ -15,6 +15,6 @@ void InsertSort(dataType A[], int n);  //直接插入排序
 void SelectSort(dataType A[], int n);  //选择排序
 void ShellSort(dataType A[], int n);   //希尔排序
 void HeapSort(dataType A[], int n);   //堆排序
-void MergeSort(dataType A[], int n);   //归并排序
+void MergeSort(dataType A[], int n);   //归并排序o
 
 #endif //PROJECT_SORT_H

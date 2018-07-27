@@ -9,6 +9,7 @@
 #include <vector>
 #include <algorithm>
 #include <string>
+#include <queue>
 
 using namespace std;
 
@@ -24,5 +25,13 @@ string removeKdigits(string num, int k);
 //4. LeetCode 55.Jump Game
 bool canJump(vector<int>& nums);
 
+//5. LeetCode 45.Jump Game II
+int jump(vector<int>& nums);
+
+//6, LeetCode 452.Minimum Number of Arrows to Burst Balloons
+int findMinArrowShots(vector<pair<int, int> >& points);
+
+//7. poj2431 Expedition
+int get_minimum_stop(int L, int P, vector<pair<int, int> > &stop);
 
 #endif //PROJECT_GREEDYALGORITHM_H

@@ -19,5 +19,8 @@ cmake_minimum_required(VERSION 3.0)
 
 #add_subdirectory(Src/LeetCodeList)
 
-add_subdirectory(Src/LeetCodeGreedy)
+#add_subdirectory(Src/LeetCodeGreedy)
 
+#add_subdirectory(Src/LeetCodeRecursive)
+
+add_subdirectory(Src/Graph)
